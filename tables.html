@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tables and Forms</title>
+  </head>
+  <body>
+    <h1>This is an example page for implementing tables and forms in HTML</h1>
+    <table cellspacing = "20"> <!--border = "1" for adding a border with 1 pixel-->
+      <thead>
+        <tr>
+          <th>Person</th>
+          <th>Birthday</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Amma</td>
+          <td>24-11-1965</td>
+          <td>56</td>
+        </tr>
+        <tr>
+          <td>Appa</td>
+          <td>21-12-1962</td>
+          <td>59</td>
+        </tr>
+        <tr>
+          <td>Baaka</td>
+          <td>13-06-1995</td>
+          <td>26</td>
+        </tr>
+        <tr>
+          <td>Me</td>
+          <td>01-01-2002</td>
+          <td>19</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr size = "2" noshade>
+    <!--tables inside table-->
+    <h3>Tables inside a table</h3>
+    <table cellspacing = "20">
+      <caption>Tables inside table example.</caption>
+      <tr>
+        <td><table cellspacing = "10">
+          <tr>
+            <td>Python Programming</td>
+            <td>🌟🌟🌟🌟🌟</td>
+          </tr>
+          <tr>
+            <td>Basics of Java Programming</td>
+            <td>🌟🌟🌟🌟</td>
+          </tr>
+        </table></td>
+        <td><table cellspacing = "10">
+          <tr>
+            <td>Algorithms</td>
+            <td>🌟🌟🌟</td>
+          </tr>
+          <tr>
+            <td>Web Development</td>
+            <td>🌟🌟🌟</td>
+          </tr>
+        </table></td>
+      </tr>
+    </table>
+    <hr size = "2" noshade>
+
+    <!-- FORMS -->
+    <h3>FORMS</h3>
+    <form class="" action="mailto:shrivatsan0101@gmail.com" method="post">
+      <table cellspacing = "10">
+        <tr>
+          <td><label>Name:</label></td>
+          <td><input type="text" name=""><br></td>
+        </tr>
+        <tr>
+          <td><label>Father's Name:</label></td>
+          <td><input type="text" name=""><br></td>
+        </tr>
+        <tr>
+          <td><label>Gender:</label></td>
+          <td><label>Male</label>
+          <input type="checkbox" name="">
+          <label>Female</label>
+          <input type="checkbox" name=""><br></td>
+        </tr>
+        <tr>
+          <td><label>Enter your e-mail address</label></td>
+          <td><input type="email" name=""><br></td>
+        </tr>
+        <tr>
+          <td><label>Enter your DoB:</label></td>
+          <td><input type="date" name=""></td>
+        </tr>
+        <tr>
+          <td><label>Your comments on this page:</label></td>
+          <td><textarea name="name" rows="3" cols="50"></textarea></td>
+        </tr>
+      </table>
+      <p align = center><input type="submit" name="" value = "Let's go"></p>
+    </form>
+  </body>
+</html>
